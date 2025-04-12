@@ -1,0 +1,47 @@
+
+
+  @keyframes shootingStar {
+    0% {
+      transform: translateX(0) translateY(0) rotate(45deg);
+      opacity: 0.5;
+      width: 2px;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(1000px) translateY(500px) rotate(45deg);
+      opacity: 0;
+      width: 100px;
+    }
+  }
+  
+  .shooting-star {
+    position: absolute;
+    top: var(--start-y, '10%');
+    left: var(--start-x, '5%');
+    width: 1px;
+    height: 1px;
+    background: linear-gradient(45deg, 
+      rgba(255,255,255,0) 0%, 
+      rgba(255,255,255,1) 50%, 
+      rgba(255,255,255,0) 100%);
+    animation: shootingStar 2.5s linear infinite;
+    animation-delay: var(--delay, '0s');
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7));
+    will-change: transform, opacity;
+  }
+  
+  .shooting-star::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: .5px;
+    background: linear-gradient(45deg, 
+      rgba(255,255,255,0) 0%, 
+      rgba(255,255,255,0.8) 50%, 
+      rgba(255,255,255,0) 100%);
+    transform: translateX(-100px);
+  }
