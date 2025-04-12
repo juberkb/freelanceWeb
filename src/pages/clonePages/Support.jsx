@@ -15,7 +15,7 @@ import {
 import { motion } from "framer-motion";
 import { FaTwitter, FaDiscord, FaPaperPlane, FaHeadset } from "react-icons/fa";
 import { FiMail, FiUser, FiMessageSquare } from "react-icons/fi";
-import img1 from "../../../assets/media/supportImg2.png";
+import img1 from "../../assets/media/supportImg2.png";
 
 const MotionBox = motion(Box);
 const MotionFlex = motion(Flex);

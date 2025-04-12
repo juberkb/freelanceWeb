@@ -6,10 +6,9 @@ import {
 } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 import Navbar from "./comman/navbar/Navbar";
-import AlbumSee from "./frontUi/pages/albumCreation/TestingGet";
-
 import Footer from "./comman/footer/Footer";
-import SupportPage from "./frontUi/pages/albumCreation/Support";
+import Home from "./pages/clonePages/Home"
+import SupportPage from "./pages/clonePages/Support"
 
 const App = () => {
 
@@ -18,7 +17,7 @@ const App = () => {
         <Router>
           <Navbar />
           <Routes>
-          <Route path="/album-see" element={<AlbumSee />} />
+          <Route path="/" element={<Home />} />
           <Route path="/support" element={<SupportPage />} />
           </Routes>
           <Footer/>

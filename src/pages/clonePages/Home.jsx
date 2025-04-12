@@ -20,18 +20,18 @@
 // import { FaApple, FaAndroid, FaArrowRight } from 'react-icons/fa';
 // import { motion, AnimatePresence } from 'framer-motion';
 // import { Images } from '../../../comman/staticImages&Icons/AllImage';
-// import img1 from "../../../assets/media/wTwo.png"
-// import img2 from "../../../assets/media/mTwo.png"
+// import img1 from "../../assets/media/wTwo.png"
+// import img2 from "../../assets/media/mTwo.png"
 // import { FiArrowRight, FiDownload } from 'react-icons/fi';
 // import { IoMdSend, IoMdTransgender } from 'react-icons/io';
-// import bgBottom from "../../../assets/media/bottombg.png"
-// import wFour from "../../../assets/media/wOne.png"
-// import HeroBg from "../../../assets/media/heroBg.jpg"
-// import mImg from "../../../assets/media/mImg.png"
+// import bgBottom from "../../assets/media/bottombg.png"
+// import wFour from "../../assets/media/wOne.png"
+// import HeroBg from "../../assets/media/heroBg.jpg"
+// import mImg from "../../assets/media/mImg.png"
 
 
 
-// import img3 from "../../../assets/media/mImg2.png"
+// import img3 from "../../assets/media/mImg2.png"
 // const MotionBox = motion(Box);
 
 // const App = () => {
@@ -852,15 +852,15 @@ import { HiOutlineBellAlert, HiOutlineChartBar } from "react-icons/hi2";
 import { FaChartLine, FaDownload, FaPaperPlane } from "react-icons/fa";
 import { FaApple, FaAndroid, FaArrowRight } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
-import img1 from "../../../assets/media/wTwo.png"
-import img2 from "../../../assets/media/mTwo.png"
+import img1 from "../../assets/media/wTwo.png"
+import img2 from "../../assets/media/mTwo.png"
 import { FiArrowRight, FiDownload } from 'react-icons/fi';
 import { IoMdSend } from 'react-icons/io';
-import bgBottom from "../../../assets/media/bottombg.png"
-import wFour from "../../../assets/media/wOne.png"
-import HeroBg from "../../../assets/media/heroBg.jpg"
-import mImg from "../../../assets/media/mImg.png"
-import img3 from "../../../assets/media/mImg2.png"
+import bgBottom from "../../assets/media/bottombg.png"
+import wFour from "../../assets/media/wOne.png"
+import HeroBg from "../../assets/media/heroBg.jpg"
+import mImg from "../../assets/media/mImg.png"
+import img3 from "../../assets/media/mImg2.png"
 
 const MotionBox = motion(Box);
 const MotionFlex = motion(Flex);
