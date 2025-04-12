@@ -857,7 +857,7 @@ import img2 from "../../assets/media/MTwo.png"
 import { FiArrowRight, FiDownload } from 'react-icons/fi';
 import { IoMdSend } from 'react-icons/io';
 import bgBottom from "../../assets/media/bottombg.png"
-import wFour from "../../assets/media/wOne.png"
+import wFour from "../../assets/media/WOne.png"
 import HeroBg from "../../assets/media/heroBg.jpg"
 import mImg from "../../assets/media/mImg.png"
 import img3 from "../../assets/media/mImg2.png"
