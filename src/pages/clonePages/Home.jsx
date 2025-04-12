@@ -853,7 +853,7 @@ import { FaChartLine, FaDownload, FaPaperPlane } from "react-icons/fa";
 import { FaApple, FaAndroid, FaArrowRight } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import img1 from "../../assets/media/wTwo.png"
-import img2 from "../../assets/media/mTwo.png"
+import img2 from "../../assets/media/MTwo.png"
 import { FiArrowRight, FiDownload } from 'react-icons/fi';
 import { IoMdSend } from 'react-icons/io';
 import bgBottom from "../../assets/media/bottombg.png"
